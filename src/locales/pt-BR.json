@@ -1,0 +1,16 @@
+{
+  
+  "footer": {
+    "projectsTitle": "Destaques de Projetos",
+    "uxuiTitle": "Projetos de UX/UI",
+    "socialTitle": "Mídias Sociais",
+    "projects":
+     {
+      "triper": "Projeto Triper ",
+      "theChat": "O Projeto Chat ",
+      "blueToken": "Web Site Blue Token",
+      "matchCoder": "Match Coder UX/UI",
+      "petCare": "Pet Care UX/UI"
+    }
+  }
+}

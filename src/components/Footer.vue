@@ -1,32 +1,40 @@
+<script setup lang="ts">
+
+import { useI18n } from 'vue-i18n';
+const { t } = useI18n();
+
+</script>
+
 <template>
   <footer class="footer">
     <div class="footer-container">
 
 
       <div class="footer-column">
-        <h3>Projects highlights</h3>
+        <h3>{{ t('footer.projectsTitle') }}</h3>
         <ul>
-          <li><a href="#">Triper</a></li>
-          <li><a href="#">The Chat</a></li>
-          <li><a href="#">Web Site Blue Token</a></li>
+          <li><a href="#">{{ t('footer.projects.triper') }}</a></li>
+          <li><a href="#">{{ t('footer.projects.theChat') }}</a></li>
+          <li><a href="#">{{ t('footer.projects.blueToken') }}</a></li>
 
         </ul>
       </div>
 
 
       <div class="footer-column">
-        <h3>UX/UI Projects</h3>
+        <h3>{{ t('footer.uxuiTitle') }}</h3>
         <ul>
 
-          <li><a href="#">Match Coder UX/UI </a></li>
-          <li><a href="#">Pet Care UX/UI </a></li>
+          <li><a href="#">{{ t('footer.projects.matchCoder') }}</a></li>
+          <li><a href="#">{{ t('footer.projects.petCare') }}</a></li>
 
         </ul>
       </div>
 
 
       <div class="footer-column contato">
-        <h3>Social Mídias</h3>
+        <h3>{{ t('footer.socialTitle') }}</h3>
+       
         <div class="social-icons">
 
           <a href="https://linkedin.com" target="_blank">
@@ -212,12 +220,6 @@
     </div>
   </footer>
 </template>
-
-<script>
-
-
-
-</script>
 
 <style scoped>
 .footer {
