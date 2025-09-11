@@ -1,5 +1,4 @@
 {
-  
   "footer": {
     "projectsTitle": "Projects Highlights",
     "uxuiTitle": "UX/UI Projects",
@@ -11,6 +10,9 @@
       "matchCoder": "Match Coder UX/UI",
       "petCare": "Pet Care UX/UI"
     }
-  
+  },
+   "contact": {
+    "title": "Have an Awesome Project Idea?",
+    "subtitle": "Let's Discuss"
   }
 }

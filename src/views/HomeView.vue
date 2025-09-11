@@ -7,8 +7,7 @@ const { t } = useI18n();
 
 <template>
   <main class="home-content">
-    <h1>{{ t('home.greeting') }}</h1>
-    <p>{{ t('home.introduction') }}</p>
+    
 
     
 

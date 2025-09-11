@@ -12,5 +12,10 @@
       "matchCoder": "Match Coder UX/UI",
       "petCare": "Pet Care UX/UI"
     }
+  },
+  "contact": {
+    "title": "Tem uma ideia de projeto incrível?",
+    "subtitle": "Vamos conversar"
   }
+
 }
