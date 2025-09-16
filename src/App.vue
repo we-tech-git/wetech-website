@@ -56,8 +56,8 @@ const { t } = useI18n();
 .app-header {
   padding: 1rem 2rem;
   /* Espaçamento interno */
-  background-color: #1a1a1a;
-  /* Um fundo escuro para combinar com o tema */
+  background-color: #101010;
+  
 }
 
 .header-content {

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
+import AboutUs from '@/components/AboutUs.vue';
 
 const { t } = useI18n();
 
@@ -7,14 +8,16 @@ const { t } = useI18n();
 
 <template>
   <main class="home-content">
-    
-
+      <AboutUs />
     
 
   </main>
 </template>
 
-<style>
-
+<style scoped>
+.home-content {
+  display: flex;
+  flex-direction: column;
+}
 
 </style>

@@ -1,21 +1,25 @@
 {
-  
   "footer": {
-    "projectsTitle": "Destaques de Projetos",
-    "uxuiTitle": "Projetos de UX/UI",
-    "socialTitle": "Mídias Sociais",
+    "projects_Title": "Destaques de Projetos",
+    "uxui_Title": "Projetos de UX/UI",
+    "social_Title": "Mídias Sociais",
     "projects":
      {
       "triper": "Projeto Triper ",
       "theChat": "O Projeto Chat ",
-      "blueToken": "Web Site Blue Token",
-      "matchCoder": "Match Coder UX/UI",
+      "blue_Token": "Web Site Blue Token",
+      "match_Coder": "Match Coder UX/UI",
       "petCare": "Pet Care UX/UI"
     }
   },
   "contact": {
     "title": "Tem uma ideia de projeto incrível?",
     "subtitle": "Vamos conversar"
+  },
+  "about_us": {
+    "title": "Sobre a We Tech Hub",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, <strong>elementum<strong/> nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "button_contact": "Entre em Contato",
+    "button_know_more": "Conheça Nossas Soluções"
   }
-
 }
