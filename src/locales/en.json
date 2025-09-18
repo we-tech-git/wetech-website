@@ -23,5 +23,41 @@
   },
   "partners": {
     "title": "Partner companies"
+  },
+
+  "services": {
+    "mainTitle": "Services provided by we tech hub",
+    "ctaButton": "Get in touch",
+    "items": {
+      "cloud": {
+        "title": "Cloud Computing",
+        "description": "Scalable and secure cloud solutions to optimize your processes."
+      },
+      "apps": {
+        "title": "Application Development",
+        "description": "We create robust and high-performance applications tailored to your business."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Intuitive interfaces and memorable user experiences that delight."
+      },
+      "desktop": {
+        "title": "Desktop Systems",
+        "description": "Desktop software development focused on performance and usability."
+      },
+      "optimization": {
+        "title": "Optimization and Performance",
+        "description": "We analyze and improve the speed and efficiency of your systems."
+      },
+      "mobile": {
+        "title": "Mobile Solutions",
+        "description": "iOS and Android applications that connect you with your customers."
+      }
+    }
   }
+
+
+
+
+
 }

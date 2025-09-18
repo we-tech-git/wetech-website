@@ -23,5 +23,37 @@
   },
   "partners": {
     "title": "Empresas parceiras"
+  },
+
+ "services": {
+    "mainTitle": "Serviços prestados pela we tech hub",
+    "ctaButton": "Entre em contato",
+    "items": {
+      "cloud": {
+        "title": "Computação em nuvem",
+        "description": "Soluções em nuvem escaláveis e seguras para otimizar seus processos."
+      },
+      "apps": {
+        "title": "Desenvolvimento de Aplicações",
+        "description": "Criamos aplicações robustas e performáticas sob medida para o seu negócio."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Interfaces intuitivas e experiências de usuário memoráveis que encantam."
+      },
+      "desktop": {
+        "title": "Sistemas Desktop",
+        "description": "Desenvolvimento de software para desktop focado em performance e usabilidade."
+      },
+      "optimization": {
+        "title": "Otimização e Performance",
+        "description": "Analisamos e melhoramos a velocidade e eficiência dos seus sistemas."
+      },
+      "mobile": {
+        "title": "Soluções Mobile",
+        "description": "Aplicativos para iOS e Android que conectam você aos seus clientes."
+      }
+    }
   }
+
 }

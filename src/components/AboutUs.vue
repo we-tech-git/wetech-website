@@ -47,7 +47,7 @@ const { t } = useI18n();
 
 .about-us-title {
   text-align: center;
-  width: 100%; /* ADICIONADO: Garante a centralização correta */
+  width: 100%; 
 }
 
 .about-us-content {
@@ -59,13 +59,13 @@ const { t } = useI18n();
 
 .about-us-image {
   flex: 1;
-  max-width: 600px; /* ALTERADO: Aumenta o limite de largura da imagem */
+  max-width: 600px; 
   align-items: center;
   display: flex;
 }
 
 .about-us-text {
-  flex: 1.2; /* ALTERADO: Equilibra o espaço entre texto e imagem */
+  flex: 1.2; 
 }
 
 .about-us-image img {
@@ -134,15 +134,14 @@ const { t } = useI18n();
 
   .buttons-wrapper {
     align-items: center;
-    width: 100%; /* Garante que o container ocupe o espaço */
+    width: 100%; 
   
   }
 
    .btn {
-    /* Sobrescreve os estilos para mobile */
-    padding: 0.9rem 2.0rem; /* Reduz drasticamente o padding horizontal */
-    font-size: 1rem;       /* Retorna a fonte a um tamanho padrão para mobile */
-    width: 100%;            /* Faz o botão ocupar 90% da largura disponível */
+    padding: 0.9rem 2.0rem;
+    font-size: 1rem;       
+    width: 100%;            
   }
 
 

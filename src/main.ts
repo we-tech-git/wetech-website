@@ -13,5 +13,5 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-app.use(i18n) // Use o i18n como um plugin
+app.use(i18n) 
 app.mount('#app')
