@@ -38,15 +38,15 @@ import svgSet from '../utils/svgSet'
 
         <div class="social-icons">
           <a href="https://linkedin.com" target="_blank">
-            <span class="footer-icon" v-html="svgSet.linkedin_icon"></span>
+            <span class="footer-icon" v-html="svgSet.linkedinIcon"></span>
           </a>
 
           <a href="https://github.com/we-tech-git" target="_blank">
-            <span class="footer-icon" v-html="svgSet.github_icon"></span>
+            <span class="footer-icon" v-html="svgSet.githubIcon"></span>
           </a>
 
           <a href="mailto:seuemail@gmail.com" target="_blank">
-            <span class="footer-icon" v-html="svgSet.gmail_icon"></span>
+            <span class="footer-icon" v-html="svgSet.gmailIcon"></span>
           </a>
         </div>
       </div>
@@ -61,8 +61,8 @@ import svgSet from '../utils/svgSet'
 .footer {
   width: 100%;
   background-color: #005b96;
-  color: #fff;
-  padding: 3rem 2rem;
+  color: #ffffff;
+  padding: 7rem 2rem;
   box-sizing: border-box;
 }
 
@@ -70,15 +70,14 @@ import svgSet from '../utils/svgSet'
   margin-top: auto;
 }
 
-
 .footer-container {
-  max-width: 1200px;
+  max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
-
+  align-items: flex-start;
 }
 
 .footer-column {
@@ -87,56 +86,49 @@ import svgSet from '../utils/svgSet'
 }
 
 .footer-column h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .footer-column ul {
   list-style: none;
-  padding: 10px;
+  padding: 0;
   margin: 0px;
 }
 
 .footer-column ul li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.8rem;
 }
 
 .footer-column ul li a {
-  color: #fff;
+  color: hsla(0, 0%, 73%, 1);
   text-decoration: none;
   transition: 0.3s;
-  font-size: 18px;
-
+  font-size: 1.9rem;
 }
 
 .footer-column ul li a:hover {
   text-decoration: underline;
 }
 
-
 .social-icons {
   margin-top: 10px;
   gap: 1.20rem;
+  display: flex;
+  align-items: center;
 }
 
 .social-icons a {
- color: #ffffff; 
- display: inline-block;
-
- 
+  color: #ffffff;
+  display: inline-block;
 }
 
-
 .footer-icon :deep(svg) {
-  width: 50px !important;
-  height: 50px !important;
-  /* filter: brightness(0) invert(1); */
-  /* transition: transform 0.3s; */
-  /* cursor: pointer; */
+  width: 80px;
+  height: 80px;
   fill: currentColor;
   border-radius: 3px;
-
+  display: block;
 }
 
 .footer-icon :deep(path) {
@@ -144,13 +136,11 @@ import svgSet from '../utils/svgSet'
 }
 
 .social-icons a[href*="linkedin.com"] .footer-icon :deep(path:first-of-type) {
-  /* O contorno ficará branco, herdando a cor do link */
-  fill: currentColor; 
+  fill: currentColor;
 }
 
 .social-icons a[href*="linkedin.com"] .footer-icon :deep(path:last-of-type) {
-  /* O "in" ficará azul, a cor do footer, para dar o efeito de vazado */
-  fill: #005B96; 
+  fill: #005B96;
 }
 
 .social-icons img:hover {
@@ -158,15 +148,9 @@ import svgSet from '../utils/svgSet'
 }
 
 .footer-column.contato {
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.social-icons {
-  display: flex;
-  margin-left: auto;
 }
 
 @media (max-width: 768px) {
@@ -183,9 +167,6 @@ import svgSet from '../utils/svgSet'
       justify-content: center;
       margin-left: 0;
     }
-
   }
-
-
 }
 </style>

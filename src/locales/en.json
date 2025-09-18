@@ -5,18 +5,23 @@
     "socialTitle": "Social Media",
     "projects": {
       "triper": "Triper",
-      "the_chat": "The Chat",
-      "blue_token": "Web Site Blue Token",
-      "match_coder": "Match Coder UX/UI",
-      "pet_care": "Pet Care UX/UI"
+      "theChat": "The Chat",
+      "blueToken": "Web Site Blue Token",
+      "matchCoder": "Match Coder UX/UI",
+      "petCare": "Pet Care UX/UI"
     }
   },
-   "contact": {
+  "contact": {
     "title": "Have an Awesome Project Idea?",
     "subtitle": "Let's Discuss"
   },
-  "about_us": {
+  "aboutUs": {
     "title": "About Us",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "buttonContact": "Contact Us",
+    "buttonKnowmore": "Learn About our Solutions"
+  },
+  "partners": {
+    "title": "Partner companies"
   }
 }

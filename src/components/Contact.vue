@@ -1,13 +1,13 @@
 <template>
   <section class="contact-section">
     <div class="form-container">
-      <h2>
+      <div>
         <h2>{{ t('contact.title') }}</h2>
-      </h2>
+      </div>
       <p class="subtitle">{{ t('contact.subtitle') }}</p>
 
       <form class="input-wrapper" @submit.prevent="sendEmail">
-        <span class="icon">✉️</span>
+        <span class="icon" v-html=svgSet.emailIcon></span>
         <input id="contact-email" type="email" placeholder="e-mail" v-model="email" required />
         <button type="submit" class="send-btn">Send</button>
       </form>
@@ -25,6 +25,7 @@ import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
 
 import { ref } from "vue";
+import svgSet from '@/utils/svgSet';
 const email = ref<string>("");
 const feedbackMessage = ref<string>("");
 const messageType = ref<"success" | "error">("success");
@@ -52,34 +53,30 @@ function sendEmail() {
 
 <style scoped>
 .contact-section {
-  background-color: #0d1128;
   color: #fff;
   width: 100%;
   box-sizing: border-box;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 7rem;
 
 }
 
 .form-container {
   width: 100%;
-  max-width: 700px;
+  max-width: 100rem;
   text-align: center;
 }
 
-
-
 h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: #007bff;
   margin-bottom: 3rem;
   font-weight: bold;
@@ -100,6 +97,8 @@ h2 {
 .input-wrapper .icon {
   font-size: 1.5rem;
   color: #007bff;
+  width: 30px;
+  height: 30px;
 }
 
 input {
@@ -107,7 +106,7 @@ input {
   outline: none;
   background: transparent;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   flex: 1;
 }
 
@@ -149,7 +148,10 @@ input::placeholder {
 
 @media (max-width: 768px) {
   .contact-section {
-    padding: 3rem 1rem;
+    /* ALTERADO: Reduz o padding para diminuir o espaço entre as seções */
+    padding: 0 1rem 3rem 1rem;
+    /* ADICIONADO: Reduz a margem inferior no mobile */
+    margin-bottom: 3rem;
   }
 
   h2 {
@@ -178,8 +180,6 @@ input::placeholder {
     padding: 0.8rem 1.5rem;
     text-align: center;
   }
-
-
 
   input,
   .send-btn {

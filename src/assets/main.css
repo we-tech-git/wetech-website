@@ -6,18 +6,24 @@
   box-sizing: border-box;
 }
 
-body, html {
-  background-color: #0d1128; /* Fundo azul escuro em todo o site */
-  color: #fafafa;             /* Cor padrão do texto clara */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+body,
+html {
+  background-color: hsla(233, 100%, 5%, 1);
+
+  color: #fafafa;
+  font-family: Poppins, sans-serif;
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
-  color: inherit; /* 'inherit' faz o link ter a mesma cor do texto ao redor */
+  color: inherit;
   transition: 0.4s;
 }
 
+h2 {
+  /* 1rem = 16px */
+  /* 2.5rem = 40px */
+  font-size: 3.5rem;
 
-
+}
