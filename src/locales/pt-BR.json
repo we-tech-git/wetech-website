@@ -1,0 +1,59 @@
+{
+  "footer": {
+    "projectsTitle": "Destaques de Projetos",
+    "uxuiTitle": "Projetos de UX/UI",
+    "socialTitle": "Mídias Sociais",
+    "projects": {
+      "triper": "Projeto Triper ",
+      "theChat": "O Projeto Chat ",
+      "blueToken": "Web Site Blue Token",
+      "matchCoder": "Match Coder UX/UI",
+      "petCare": "Pet Care UX/UI"
+    }
+  },
+  "contact": {
+    "title": "Tem uma ideia de projeto incrível?",
+    "subtitle": "Vamos conversar"
+  },
+  "aboutUs": {
+    "title": "Sobre a We Tech Hub",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, <strong>elementum<strong/> nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "buttonContact": "Entre em Contato",
+    "buttonKnowmore": "Conheça Nossas Soluções"
+  },
+  "partners": {
+    "title": "Empresas parceiras"
+  },
+
+ "services": {
+    "mainTitle": "Serviços prestados pela we tech hub",
+    "ctaButton": "Entre em contato",
+    "items": {
+      "cloud": {
+        "title": "Computação em nuvem",
+        "description": "Soluções em nuvem escaláveis e seguras para otimizar seus processos."
+      },
+      "apps": {
+        "title": "Desenvolvimento de Aplicações",
+        "description": "Criamos aplicações robustas e performáticas sob medida para o seu negócio."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Interfaces intuitivas e experiências de usuário memoráveis que encantam."
+      },
+      "desktop": {
+        "title": "Sistemas Desktop",
+        "description": "Desenvolvimento de software para desktop focado em performance e usabilidade."
+      },
+      "optimization": {
+        "title": "Otimização e Performance",
+        "description": "Analisamos e melhoramos a velocidade e eficiência dos seus sistemas."
+      },
+      "mobile": {
+        "title": "Soluções Mobile",
+        "description": "Aplicativos para iOS e Android que conectam você aos seus clientes."
+      }
+    }
+  }
+
+}
