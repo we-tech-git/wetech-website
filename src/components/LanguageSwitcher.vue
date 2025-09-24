@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-// 1. IMPORTAMOS O NOSSO ARQUIVO CENTRAL DE SVGs
 import svgIcons from '@/utils/svgSet';
 
 const { locale } = useI18n();
 
-// Criamos a constante para usar no template
+
 const languageIcon = svgIcons.languageIcon;
 
 const languages = [
@@ -56,7 +55,7 @@ function toggleDropdown() {
 }
 
 .switcher-button {
-  background-color: #0056b3;
+  background-color: hsla(212, 64%, 27%, 1);
   border: none;
   border-radius: 12px;
   padding: 12px;
@@ -74,7 +73,7 @@ function toggleDropdown() {
   background-color: #3a4b5e;
 }
 
-/* 3. AJUSTAMOS O SELETOR CSS COM :DEEP() */
+
 .switcher-button :deep(svg) {
   width: 28px;
   height: 28px;

@@ -22,10 +22,9 @@
     "buttonKnowmore": "Conheça Nossas Soluções"
   },
   "partners": {
-    "title": "Empresas parceiras"
+    "title": "Marcas impactadas pela We Tech"
   },
-
- "services": {
+  "services": {
     "mainTitle": "Serviços prestados pela we tech hub",
     "ctaButton": "Entre em contato",
     "items": {
@@ -54,6 +53,31 @@
         "description": "Aplicativos para iOS e Android que conectam você aos seus clientes."
       }
     }
+  },
+  "objective": {
+  "sectionTitle": "Impulsione sua inovação com ferramentas e <br/> técnicas de ultima geração",
+  "items": {
+    "mission": {
+      "title": "Missão",
+      "description": "Nossa missão é elevar o padrão dos produtos digitais: transformar ideias em experiências úteis e palpáveis, unindo engenharia e design para gerar valor mensurável para empresas e pessoas."
+    },
+    "vision": {
+      "title": "Visão",
+      "description": "Ser referência em produtos digitais na América Latina levando ideias do zero ao scale-up, conectando pessoas e negócios com experiências significativas e de alta disponibilidade."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Foco em valor do cliente, transparência e parceria, escalabilidade sustentável, ética e respeito são alguns dos nossos valores inegociáveis."
+    }
   }
+},
 
+"innovations": {
+  "title": "Engenharia aplicada ao seu <br/>crescimento",
+  "description": "Somos uma empresa de tecnologia que transforma ideias em produtos digitais eficientes, bonitos e escaláveis. <br/><br/>Com engenharia de software, design e automação construimos soluções elegantes e práticas para a sua empresa",
+  "primary_button": "Entre em contato",
+  "secondary_button": "Conheça nossa soluções"
+}
+
+  
 }

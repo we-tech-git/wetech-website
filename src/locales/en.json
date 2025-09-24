@@ -22,7 +22,7 @@
     "buttonKnowmore": "Learn About our Solutions"
   },
   "partners": {
-    "title": "Partner companies"
+    "title": "Brands impacted by We Tech"
   },
 
   "services": {
@@ -54,10 +54,29 @@
         "description": "iOS and Android applications that connect you with your customers."
       }
     }
-  }
-
-
-
-
+  },
+   "objective": {
+    "sectionTitle": "Boost your innovation with state-of-the-art <br/> tools and techniques",
+    "items": {
+      "mission": {
+        "title": "Mission",
+        "description": "Our mission is to raise the standard of digital products: transforming ideas into useful and tangible experiences, uniting engineering and design to generate measurable value for companies and people."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "To be a benchmark in digital products in Latin America, taking ideas from zero to scale-up by connecting people and businesses with significant and high-availability experiences."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Focus on customer value, transparency and partnership, sustainable scalability, ethics, and respect are some of our non-negotiable values."
+      }
+    }
+  },
+  "innovations": {
+  "title": "Engineering applied to your growth",
+  "description": "We explore cutting-edge technologies and apply creative approaches to develop solutions that not only solve problems, but also define tomorrow.",
+  "primary_button": "Contact us",
+  "secondary_button": "Explore our solutions"
+}
 
 }
