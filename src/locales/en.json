@@ -77,6 +77,15 @@
   "description": "We explore cutting-edge technologies and apply creative approaches to develop solutions that not only solve problems, but also define tomorrow.",
   "primary_button": "Contact us",
   "secondary_button": "Explore our solutions"
-}
+},
+
+"videoBanner": {
+  "mainTitle": "We transform ideas into digital reality.<br/>universe of possibilities"
+  
+},
+
+"header": {
+    "logoText": "We Tech"
+  }
 
 }

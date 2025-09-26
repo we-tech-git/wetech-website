@@ -17,8 +17,10 @@ const { t } = useI18n();
 </script>
 
 <style scoped>
-/* ESTILOS GERAIS (DESKTOP) */
+
 .innovation-hero-section {
+  position: relative;
+  background-color:hsla(233, 100%, 5%, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +30,20 @@ const { t } = useI18n();
   color: #ffffff;
   box-sizing: border-box;
 }
+
+.innovation-hero-section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  left: 0;
+  top: -149px;
+  background: linear-gradient(to bottom,
+      rgba(6, 11, 40, 0) 0%,
+      hsla(233, 100%, 5%, 1) 100%);
+  z-index: 2;
+}
+
 
 .hero-title {
   margin-bottom: 5.5rem;
@@ -54,7 +70,7 @@ const { t } = useI18n();
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -89,9 +105,14 @@ const { t } = useI18n();
 }
 
 
-/* MEDIA QUERIES PARA CELULARES  */
+/* MEDIA QUERIES PARA CELULARES */
 
 @media (max-width: 768px) {
+
+  .innovation-hero-section::before {
+    display: none;
+  }
+
   .content-wrapper {
     width: 100%;
     box-sizing: border-box;
@@ -111,16 +132,16 @@ const { t } = useI18n();
   .button-group {
     width: 100%;
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
+    flex-direction: column;
+    align-items: center;
     gap: 15px;
   }
 
   .btn {
-    width: 90%; 
-    padding: 1.2rem 2rem; 
+    width: 90%;
+    padding: 1.2rem 2rem;
     font-size: 1.5rem;
-    white-space: normal; 
+    white-space: normal;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +162,7 @@ const { t } = useI18n();
   }
 
   .btn {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 }
 </style>
