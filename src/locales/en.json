@@ -1,0 +1,91 @@
+{
+  "footer": {
+    "projectsTitle": "Projects Highlights",
+    "uxuiTitle": "UX/UI Projects",
+    "socialTitle": "Social Media",
+    "projects": {
+      "triper": "Triper",
+      "theChat": "The Chat",
+      "blueToken": "Web Site Blue Token",
+      "matchCoder": "Match Coder UX/UI",
+      "petCare": "Pet Care UX/UI"
+    }
+  },
+  "contact": {
+    "title": "Have an Awesome Project Idea?",
+    "subtitle": "Let's Discuss"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "buttonContact": "Contact Us",
+    "buttonKnowmore": "Learn About our Solutions"
+  },
+  "partners": {
+    "title": "Brands impacted by We Tech"
+  },
+
+  "services": {
+    "mainTitle": "Services provided by we tech hub",
+    "ctaButton": "Get in touch",
+    "items": {
+      "cloud": {
+        "title": "Cloud Computing",
+        "description": "Scalable and secure cloud solutions to optimize your processes."
+      },
+      "apps": {
+        "title": "Application Development",
+        "description": "We create robust and high-performance applications tailored to your business."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Intuitive interfaces and memorable user experiences that delight."
+      },
+      "desktop": {
+        "title": "Desktop Systems",
+        "description": "Desktop software development focused on performance and usability."
+      },
+      "optimization": {
+        "title": "Optimization and Performance",
+        "description": "We analyze and improve the speed and efficiency of your systems."
+      },
+      "mobile": {
+        "title": "Mobile Solutions",
+        "description": "iOS and Android applications that connect you with your customers."
+      }
+    }
+  },
+   "objective": {
+    "sectionTitle": "Boost your innovation with state-of-the-art <br/> tools and techniques",
+    "items": {
+      "mission": {
+        "title": "Mission",
+        "description": "Our mission is to raise the standard of digital products: transforming ideas into useful and tangible experiences, uniting engineering and design to generate measurable value for companies and people."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "To be a benchmark in digital products in Latin America, taking ideas from zero to scale-up by connecting people and businesses with significant and high-availability experiences."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Focus on customer value, transparency and partnership, sustainable scalability, ethics, and respect are some of our non-negotiable values."
+      }
+    }
+  },
+  "innovations": {
+  "title": "Engineering applied to your growth",
+  "description": "We explore cutting-edge technologies and apply creative approaches to develop solutions that not only solve problems, but also define tomorrow.",
+  "primary_button": "Contact us",
+  "secondary_button": "Explore our solutions"
+},
+
+"videoBanner": {
+  "mainTitle": "We transform ideas into digital reality.<br/>universe of possibilities"
+  
+},
+
+"header": {
+    "logoText": "We Tech"
+  }
+
+}

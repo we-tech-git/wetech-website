@@ -1,0 +1,93 @@
+{
+  "footer": {
+    "projectsTitle": "Destaques de Projetos",
+    "uxuiTitle": "Projetos de UX/UI",
+    "socialTitle": "Mídias Sociais",
+    "projects": {
+      "triper": "Projeto Triper ",
+      "theChat": "O Projeto Chat ",
+      "blueToken": "Web Site Blue Token",
+      "matchCoder": "Match Coder UX/UI",
+      "petCare": "Pet Care UX/UI"
+    }
+  },
+  "contact": {
+    "title": "Tem uma ideia de projeto incrível?",
+    "subtitle": "Vamos conversar"
+  },
+  "aboutUs": {
+    "title": "Sobre a We Tech Hub",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, <strong>elementum<strong/> nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "buttonContact": "Entre em Contato",
+    "buttonKnowmore": "Conheça Nossas Soluções"
+  },
+  "partners": {
+    "title": "Marcas impactadas pela We Tech"
+  },
+  "services": {
+    "mainTitle": "Serviços prestados pela we tech hub",
+    "ctaButton": "Entre em contato",
+    "items": {
+      "cloud": {
+        "title": "Computação em nuvem",
+        "description": "Soluções em nuvem escaláveis e seguras para otimizar seus processos."
+      },
+      "apps": {
+        "title": "Desenvolvimento de Aplicações",
+        "description": "Criamos aplicações robustas e performáticas sob medida para o seu negócio."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Interfaces intuitivas e experiências de usuário memoráveis que encantam."
+      },
+      "desktop": {
+        "title": "Sistemas Desktop",
+        "description": "Desenvolvimento de software para desktop focado em performance e usabilidade."
+      },
+      "optimization": {
+        "title": "Otimização e Performance",
+        "description": "Analisamos e melhoramos a velocidade e eficiência dos seus sistemas."
+      },
+      "mobile": {
+        "title": "Soluções Mobile",
+        "description": "Aplicativos para iOS e Android que conectam você aos seus clientes."
+      }
+    }
+  },
+  "objective": {
+  "sectionTitle": "Impulsione sua inovação com ferramentas e <br/> técnicas de ultima geração",
+  "items": {
+    "mission": {
+      "title": "Missão",
+      "description": "Nossa missão é elevar o padrão dos produtos digitais: transformar ideias em experiências úteis e palpáveis, unindo engenharia e design para gerar valor mensurável para empresas e pessoas."
+    },
+    "vision": {
+      "title": "Visão",
+      "description": "Ser referência em produtos digitais na América Latina levando ideias do zero ao scale-up, conectando pessoas e negócios com experiências significativas e de alta disponibilidade."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Foco em valor do cliente, transparência e parceria, escalabilidade sustentável, ética e respeito são alguns dos nossos valores inegociáveis."
+    }
+  }
+},
+
+"innovations": {
+  "title": "Engenharia aplicada ao seu <br/>crescimento",
+  "description": "Somos uma empresa de tecnologia que transforma ideias em produtos digitais eficientes, bonitos e escaláveis. <br/><br/>Com engenharia de software, design e automação construimos soluções elegantes e práticas para a sua empresa",
+  "primary_button": "Entre em contato",
+  "secondary_button": "Conheça nossa soluções"
+},
+
+"videoBanner": {
+  
+  "mainTitle": "Transformamos ideias em realidade digital.<br/>Explore um universo de possibilidades"
+ 
+},
+
+"header": {
+    "logoText": "We Tech"
+  }
+
+  
+}
