@@ -4,7 +4,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <section id="about-us" class="about-us-section">
+  <section id="sobre-nos" class="about-us-section">
     <div class="container">
       <h2 class="about-us-title">{{ t('aboutUs.title') }}</h2>
 
