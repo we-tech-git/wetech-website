@@ -16,10 +16,10 @@ const { t } = useI18n();
   <main class="home-content">
     <VideoBanner/>
     <Innovation/>
-    <Objective />
     <ServicesProvided />
     <PartnersSection />
     <AboutUs />
+    <Objective />
   </main>
 </template>
 

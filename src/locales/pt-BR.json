@@ -59,15 +59,15 @@
   "items": {
     "mission": {
       "title": "Missão",
-      "description": "Nossa missão é elevar o padrão dos produtos digitais: transformar ideias em experiências úteis e palpáveis, unindo engenharia e design para gerar valor mensurável para empresas e pessoas."
+      "description": "Nossa missão é elevar o padrão de produtos digitais, transformando ideias em soluções reais e escaláveis. Unimos engenharia e design com foco em resultado, criando experiências que geram impacto concreto para empresas e pessoas."
     },
     "vision": {
       "title": "Visão",
-      "description": "Ser referência em produtos digitais na América Latina levando ideias do zero ao scale-up, conectando pessoas e negócios com experiências significativas e de alta disponibilidade."
+      "description": "Nossa visão é ser referência em produtos digitais, conduzindo ideias do zero ao scale-up com estratégia, tecnologia sólida e execução consistente, conectando negócios e pessoas por meio de produtos confiáveis e relevantes."
     },
     "values": {
       "title": "Valores",
-      "description": "Foco em valor do cliente, transparência e parceria, escalabilidade sustentável, ética e respeito são alguns dos nossos valores inegociáveis."
+      "description": "Nossos valores são o foco genuíno em gerar valor para o cliente, a transparência nas relações, a parceria de longo prazo e a construção de soluções escaláveis e sustentáveis. Atuamos com ética, respeito e responsabilidade em cada decisão."
     }
   }
 },

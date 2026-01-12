@@ -9,7 +9,9 @@ const { t } = useI18n();
             <h2 class="partners-title">{{ t('partners.title') }}</h2>
 
             <div class="logos-wrapper">
-                <img src="@/img/bluebg.png" alt="Logo da empresa parceira Blue">
+                <img src="@/img/partners/bluebg.png" alt="Logo da empresa parceira Blue">
+                <img src="@/img/partners/genesis_bank.png" alt="Logo da empresa parceira Genesis Bank">
+                <img src="@/img/partners/xvia.png" alt="Logo da empresa parceira Xvia">
             </div>
         </div>
     </section>
