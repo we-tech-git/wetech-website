@@ -14,7 +14,7 @@
             {{ displayedText }}<span class="cursor">|</span>
           </p>
         </div>
-        <h1 class="banner-title" v-html="t('videoBanner.mainTitle')"></h1>
+        <h1 class="banner-title" style="white-space: pre-line">{{ t('videoBanner.mainTitle') }}</h1>
 
       </div>
 
@@ -110,40 +110,45 @@ onUnmounted(() => {
 
 .banner-content {
   position: absolute;
-  top: 40%;
-  left: 20%;
-  transform: translateY(-50%);
+  top: 50%; /* Centered vertically */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centered both ways */
   z-index: 3;
   width: 90%;
-  text-align: left;
+  max-width: 1200px;
+  text-align: left; /* Keep left alignment if desired, or center for banner */
 }
 
 .banner-title {
-  font-size: 60px;
-  margin-bottom: 1rem;
+  font-size: 3.5rem; /* Reduced from 60px (~3.75rem) */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 
 .pre-title-container {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .line {
   display: block;
-  width: 50px;
-  height: 4px;
+  width: 40px; /* Smaller line */
+  height: 3px;
   background-color: #3b82f6;
   border-radius: 2px;
 }
 
 .pre-title {
-  font-size: 2.7rem;
+  font-size: 1.25rem; /* Reduced from 2.7rem */
   font-weight: 600;
   color: #ffffff;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .cursor {

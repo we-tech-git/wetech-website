@@ -1,8 +1,16 @@
 {
+  "header": {
+    "logoText": "We Tech",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contact": "Contact"
+  },
   "footer": {
     "projectsTitle": "Projects Highlights",
     "uxuiTitle": "UX/UI Projects",
     "socialTitle": "Social Media",
+    "description": "We transform ideas into digital reality with innovation, technology, and cutting-edge design.",
+    "copyright": "© 2026 We Tech Hub. All rights reserved.",
     "projects": {
       "triper": "Triper",
       "theChat": "The Chat",
@@ -17,7 +25,7 @@
   },
   "aboutUs": {
     "title": "About Us",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. \n\n Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
     "buttonContact": "Contact Us",
     "buttonKnowmore": "Learn About our Solutions"
   },
@@ -56,7 +64,7 @@
     }
   },
    "objective": {
-    "sectionTitle": "Boost your innovation with state-of-the-art <br/> tools and techniques",
+    "sectionTitle": "Boost your innovation with state-of-the-art \n tools and techniques",
     "items": {
       "mission": {
         "title": "Mission",
@@ -80,12 +88,9 @@
 },
 
 "videoBanner": {
-  "mainTitle": "We transform ideas into digital reality.<br/>universe of possibilities"
+  "mainTitle": "We transform ideas into digital reality.\nuniverse of possibilities"
   
-},
+}
 
-"header": {
-    "logoText": "We Tech"
-  }
 
 }

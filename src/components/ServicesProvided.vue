@@ -100,13 +100,14 @@ const services = [
 }
 
 .service-title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  min-height: 4.5rem; 
+  font-size: 1.25rem; /* Reduced from 1.5rem */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  min-height: 3rem; 
 }
 
 .service-description {
-  font-size: 1.2rem;
+  font-size: 0.95rem; /* Reduced from 1.2rem */
   color: #a0aec0;
   line-height: 1.6;
   max-width: 300px;
@@ -117,10 +118,11 @@ const services = [
   display: inline-block;
   background-color: #007bff;
   color: #ffffff;
-  padding: 1rem 9.5rem;
+  padding: 0.75rem 3rem; /* Drastically reduced padding */
   border-radius: 50px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem; /* Reduced from 1.5rem */
+  font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
   margin-bottom: 6rem;
 }

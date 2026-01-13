@@ -1,8 +1,8 @@
 <template>
   <section class="innovation-hero-section">
     <div class="content-wrapper">
-      <h2 class="hero-title" v-html="t('innovations.title')"></h2>
-      <p class="hero-description" v-html="t('innovations.description')"></p>
+      <h2 class="hero-title" style="white-space: pre-line">{{ t('innovations.title') }}</h2>
+      <p class="hero-description" style="white-space: pre-line">{{ t('innovations.description') }}</p>
       <div class="button-group">
         <button class="btn btn-primary">{{ t('innovations.primary_button') }}</button>
         <button class="btn btn-secondary">{{ t('innovations.secondary_button') }}</button>
@@ -17,10 +17,9 @@ const { t } = useI18n();
 </script>
 
 <style scoped>
-
 .innovation-hero-section {
   position: relative;
-  background-color:hsla(233, 100%, 5%, 1);
+  background-color: hsla(233, 100%, 5%, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,27 +45,34 @@ const { t } = useI18n();
 
 
 .hero-title {
-  margin-bottom: 5.5rem;
+  margin-bottom: 2.5rem;
+  /* Reduced margin */
 }
 
 .hero-description {
-  font-size: 2.5rem;
-  max-width: 93rem;
-  margin: 0 auto 9rem auto;
+  font-size: 1.125rem;
+  /* Reduced from 2.5rem */
+  max-width: 800px;
+  /* Reduced max-width for better reading line length */
+  margin: 0 auto 3rem auto;
+  /* Reduced margin */
   color: #c0c8e7;
+  line-height: 1.7;
 }
 
 .button-group {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .btn {
-  padding: 1.4rem 8.5rem;
+  padding: 0.75rem 2.5rem;
+  /* Drastically reduced padding */
   border-radius: 50px;
-  font-size: 1.7rem;
+  font-size: 1rem;
+  /* Reduced from 1.7rem */
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -109,6 +115,11 @@ const { t } = useI18n();
 
 @media (max-width: 768px) {
 
+  .innovation-hero-section {
+    padding: 60px 20px;
+    min-height: auto;
+  }
+
   .innovation-hero-section::before {
     display: none;
   }
@@ -119,14 +130,14 @@ const { t } = useI18n();
   }
 
   .hero-title {
-    font-size: 2.2rem;
-    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   .hero-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     max-width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .button-group {
@@ -138,9 +149,10 @@ const { t } = useI18n();
   }
 
   .btn {
-    width: 90%;
-    padding: 1.2rem 2rem;
-    font-size: 1.5rem;
+    width: 100%;
+    max-width: 320px;
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
     white-space: normal;
     display: flex;
     align-items: center;

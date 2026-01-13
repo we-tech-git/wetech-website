@@ -14,7 +14,7 @@ const { t } = useI18n();
         </div>
 
         <div class="about-us-text">
-          <p v-html="t('aboutUs.description')"></p>
+          <p style="white-space: pre-line">{{ t('aboutUs.description') }}</p>
           <div class="buttons-wrapper">
             <a href="#contact" class="btn btn-primary">{{ t('aboutUs.buttonContact') }}</a>
             <a href="#solutions" class="btn btn-secondary">{{ t('aboutUs.buttonKnowmore') }}</a>
@@ -47,7 +47,7 @@ const { t } = useI18n();
 
 .about-us-title {
   text-align: center;
-  width: 100%; 
+  width: 100%;
 }
 
 .about-us-content {
@@ -59,13 +59,13 @@ const { t } = useI18n();
 
 .about-us-image {
   flex: 1;
-  max-width: 600px; 
+  max-width: 600px;
   align-items: center;
   display: flex;
 }
 
 .about-us-text {
-  flex: 1.2; 
+  flex: 1.2;
 }
 
 .about-us-image img {
@@ -75,45 +75,51 @@ const { t } = useI18n();
 }
 
 .about-us-text p {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  /* Reduced from 1.2rem */
+  line-height: 1.6;
+  color: #d1d5db;
+  /* Softer white for reading */
 }
 
 /* --- ESTILOS GERAIS DOS BOTÕES --- */
 .buttons-wrapper {
-  margin-top: 30px;
+  margin-top: 32px;
   display: flex;
-  flex-direction: column;
-  gap: 19px;
-  align-items: flex-start;
+  flex-direction: row;
+  /* Changed to row for better desktop layout */
+  gap: 16px;
+  align-items: center;
 }
 
 .btn {
-  padding: 1.0rem 6.0rem;
+  padding: 0.75rem 2rem;
+  /* Reduced padding */
   border-radius: 50px;
-  font-weight: bold;
+  font-weight: 600;
   transition: all 0.3s ease;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
+  font-size: 1rem;
+  /* Standardized font size */
 }
 
 .btn-primary {
   background-color: #007bff;
   color: #ffffff;
   border: 2px solid #007bff;
-  font-size: 1.5rem;
 }
 
 .btn-primary:hover {
   background-color: #0056b3;
+  border-color: #0056b3;
 }
 
 .btn-secondary {
   background-color: transparent;
   color: #ffffff;
   border: 1px solid #ffffff;
-  font-size: 1.5rem;
 }
 
 .btn-secondary:hover {
@@ -123,27 +129,51 @@ const { t } = useI18n();
 
 /* --- LAYOUT PARA MOBILE (RESPONSIVO COM FLEXBOX) --- */
 @media (max-width: 768px) {
+  .about-us-section {
+    padding: 60px 20px;
+  }
+
   .container {
-    padding: 0 20px;
+    padding: 0;
+    gap: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-us-title {
+    font-size: 2rem;
   }
 
   .about-us-content {
     flex-direction: column;
     text-align: center;
+    gap: 40px;
+  }
+
+  .about-us-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .buttons-wrapper {
+    flex-direction: column;
     align-items: center;
-    width: 100%; 
-  
+    width: 100%;
+    gap: 16px;
   }
 
-   .btn {
-    padding: 0.9rem 2.0rem;
-    font-size: 1rem;       
-    width: 100%;            
+  .btn {
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
   }
+}
 
-
+@media (max-width: 480px) {
+  .about-us-title {
+    font-size: 1.75rem;
+  }
 }
 </style>

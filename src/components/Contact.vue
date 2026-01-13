@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-section">
+  <section id="contact" class="contact-section">
     <div class="form-container">
       <div>
         <h2>{{ t('contact.title') }}</h2>
@@ -42,8 +42,15 @@ function sendEmail() {
     feedbackMessage.value = "Por favor, digite um e-mail válido.";
     return;
   }
+
+  const recipient = "contact@wetechhub.com.br";
+  const subject = "Novo contato pelo site We Tech Hub";
+  const body = `Olá, gostaria de conversar sobre um projeto.\n\nMeu email para contato é: ${email.value}`;
+
+  window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
   messageType.value = "success";
-  feedbackMessage.value = `Obrigado! Entrarei em contato em ${email.value}.`;
+  feedbackMessage.value = `Redirecionando para seu e-mail...`;
   email.value = "";
   setTimeout(() => {
     feedbackMessage.value = "";
@@ -56,7 +63,8 @@ function sendEmail() {
   color: #fff;
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 2rem;
+  padding: 80px 20px;
+  /* Reduced padding */
   flex: 1;
   display: flex;
   align-items: center;
@@ -67,7 +75,8 @@ function sendEmail() {
 
 .form-container {
   width: 100%;
-  max-width: 100rem;
+  max-width: 600px;
+  /* Reduced from 100rem to standard form width */
   text-align: center;
 }
 
@@ -76,10 +85,11 @@ h2 {
 }
 
 .subtitle {
-  font-size: 3rem;
+  font-size: 1.5rem;
+  /* Reduced from 3rem */
   color: #007bff;
-  margin-bottom: 3rem;
-  font-weight: bold;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
 .input-wrapper {

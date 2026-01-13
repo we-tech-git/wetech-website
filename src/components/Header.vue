@@ -32,7 +32,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, nextTick } from 'vue';
+import { ref, onMounted, nextTick, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
@@ -45,10 +45,10 @@ const toggleMobileMenu = () => {
 };
 
 
-const navLinks = ref([
-  { name: 'Home', path: '/' },
-  { name: 'Sobre nós', path: '/#sobre-nos' },
-  { name: 'Contato', path: '/contact' },
+const navLinks = computed(() => [
+  { name: t('header.home'), path: '/' },
+  { name: t('header.aboutUs'), path: '/#sobre-nos' },
+  { name: t('header.contact'), path: '/#contact' },
 ]);
 
 
@@ -88,14 +88,17 @@ onMounted(() => {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 69%;
+  width: 90%;
+  max-width: 1200px;
+  /* Added max-width */
   z-index: 1000;
   background-color: hsla(205, 100%, 28%, 0.5);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 
   border-radius: 12px;
-  padding: 8px 15px;
+  padding: 12px 24px;
+  /* Slightly adjusted padding */
 }
 
 .navbar {
@@ -108,15 +111,17 @@ onMounted(() => {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   color: #ffffff;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.25rem;
+  /* Reduced from 1.8rem */
   text-decoration: none;
 }
 
 .logo-icon {
-  height: 30px;
+  height: 28px;
+  /* Slightly smaller logo */
 }
 
 .nav-links {
@@ -125,15 +130,17 @@ onMounted(() => {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 40px;
+  gap: 32px;
+  /* Reduced gap */
 }
 
 .nav-links a {
   position: relative;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  /* Reduced from 1.6rem */
   font-weight: 500;
-  padding: 10px 5px;
+  padding: 8px 4px;
   transition: color 0.3s ease;
 }
 

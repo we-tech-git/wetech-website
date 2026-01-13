@@ -1,8 +1,16 @@
 {
+  "header": {
+    "logoText": "We Tech",
+    "home": "Início",
+    "aboutUs": "Sobre nós",
+    "contact": "Contato"
+  },
   "footer": {
     "projectsTitle": "Destaques de Projetos",
     "uxuiTitle": "Projetos de UX/UI",
     "socialTitle": "Mídias Sociais",
+    "description": "Transformamos ideias em realidade digital com inovação, tecnologia e design de ponta.",
+    "copyright": "© 2026 We Tech. Todos os direitos reservados.",
     "projects": {
       "triper": "Projeto Triper ",
       "theChat": "O Projeto Chat ",
@@ -17,7 +25,7 @@
   },
   "aboutUs": {
     "title": "Sobre a We Tech Hub",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, <strong>elementum<strong/> nec tristique ac. <br/><br/> Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. \n\n Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
     "buttonContact": "Entre em Contato",
     "buttonKnowmore": "Conheça Nossas Soluções"
   },
@@ -55,39 +63,31 @@
     }
   },
   "objective": {
-  "sectionTitle": "Impulsione sua inovação com ferramentas e <br/> técnicas de ultima geração",
-  "items": {
-    "mission": {
-      "title": "Missão",
-      "description": "Nossa missão é elevar o padrão de produtos digitais, transformando ideias em soluções reais e escaláveis. Unimos engenharia e design com foco em resultado, criando experiências que geram impacto concreto para empresas e pessoas."
-    },
-    "vision": {
-      "title": "Visão",
-      "description": "Nossa visão é ser referência em produtos digitais, conduzindo ideias do zero ao scale-up com estratégia, tecnologia sólida e execução consistente, conectando negócios e pessoas por meio de produtos confiáveis e relevantes."
-    },
-    "values": {
-      "title": "Valores",
-      "description": "Nossos valores são o foco genuíno em gerar valor para o cliente, a transparência nas relações, a parceria de longo prazo e a construção de soluções escaláveis e sustentáveis. Atuamos com ética, respeito e responsabilidade em cada decisão."
+    "sectionTitle": "Impulsione sua inovação com ferramentas e \n técnicas de ultima geração",
+    "items": {
+      "mission": {
+        "title": "Missão",
+        "description": "Nossa missão é elevar o padrão de produtos digitais, transformando ideias em soluções reais e escaláveis. Unimos engenharia e design com foco em resultado, criando experiências que geram impacto concreto para empresas e pessoas."
+      },
+      "vision": {
+        "title": "Visão",
+        "description": "Nossa visão é ser referência em produtos digitais, conduzindo ideias do zero ao scale-up com estratégia, tecnologia sólida e execução consistente, conectando negócios e pessoas por meio de produtos confiáveis e relevantes."
+      },
+      "values": {
+        "title": "Valores",
+        "description": "Nossos valores são o foco genuíno em gerar valor para o cliente, a transparência nas relações, a parceria de longo prazo e a construção de soluções escaláveis e sustentáveis. Atuamos com ética, respeito e responsabilidade em cada decisão."
+      }
     }
+  },
+
+  "innovations": {
+    "title": "Engenharia aplicada ao seu \ncrescimento",
+    "description": "Somos uma empresa de tecnologia que transforma ideias em produtos digitais eficientes, bonitos e escaláveis. \n\nCom engenharia de software, design e automação construimos soluções elegantes e práticas para a sua empresa",
+    "primary_button": "Entre em contato",
+    "secondary_button": "Conheça nossa soluções"
+  },
+
+  "videoBanner": {
+    "mainTitle": "Transformamos ideias em realidade digital.\nExplore um universo de possibilidades"
   }
-},
-
-"innovations": {
-  "title": "Engenharia aplicada ao seu <br/>crescimento",
-  "description": "Somos uma empresa de tecnologia que transforma ideias em produtos digitais eficientes, bonitos e escaláveis. <br/><br/>Com engenharia de software, design e automação construimos soluções elegantes e práticas para a sua empresa",
-  "primary_button": "Entre em contato",
-  "secondary_button": "Conheça nossa soluções"
-},
-
-"videoBanner": {
-  
-  "mainTitle": "Transformamos ideias em realidade digital.<br/>Explore um universo de possibilidades"
- 
-},
-
-"header": {
-    "logoText": "We Tech"
-  }
-
-  
 }

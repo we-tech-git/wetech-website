@@ -8,6 +8,7 @@ const i18n = createI18n<[MessageSchema], 'pt-BR' | 'en'>({
   legacy: false, 
   locale: 'pt-BR', 
   fallbackLocale: 'en', 
+  warnHtmlInMessage: 'off',
   messages: {
     'pt-BR': messagesPTBR,
     'en': messagesEN,
