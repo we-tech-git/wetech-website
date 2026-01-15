@@ -28,8 +28,8 @@ const { t } = useI18n()
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/projects/the-chat" class="footer-link">
-              {{ t('footer.projects.theChat') }}
+            <RouterLink to="/projects/toro-token" class="footer-link">
+              Toro Token
             </RouterLink>
           </li>
           <li>
@@ -37,20 +37,9 @@ const { t } = useI18n()
               {{ t('footer.projects.blueToken') }}
             </RouterLink>
           </li>
-        </ul>
-      </div>
-
-      <div class="footer-column">
-        <h3>{{ t('footer.uxuiTitle') }}</h3>
-        <ul>
           <li>
-            <RouterLink to="/projects/match-coder" class="footer-link">
-              {{ t('footer.projects.matchCoder') }}
-            </RouterLink>
-          </li>
-          <li>
-            <RouterLink to="/projects/pet-care" class="footer-link">
-              {{ t('footer.projects.petCare') }}
+            <RouterLink to="/projects/genesis-bank" class="footer-link">
+              Genesis Bank
             </RouterLink>
           </li>
         </ul>

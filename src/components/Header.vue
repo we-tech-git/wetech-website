@@ -3,7 +3,7 @@
     <nav class="navbar">
 
       <router-link to="/" class="logo-container">
-        <img src="/wetechicon.png" alt="We Tech Icon" class="logo-icon" />
+        <img src="/WE_white (1).png" alt="We Tech logo" class="logo-icon" />
         <span class="logo-text">{{ t('header.logoText') }}</span>
       </router-link>
 
@@ -32,10 +32,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, nextTick, computed } from 'vue';
+import { ref, onMounted, nextTick, computed, onBeforeUnmount, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
+import { useRoute } from 'vue-router';
 
 const { t } = useI18n();
+const route = useRoute();
 
 
 const isMobileMenuOpen = ref(false);
@@ -54,6 +56,14 @@ const navLinks = computed(() => [
 
 const navLinksContainer = ref<HTMLUListElement | null>(null);
 const magicLine = ref<HTMLLIElement | null>(null);
+const ensureMagicLineHidden = () => {
+  if (magicLine.value) {
+    magicLine.value.style.width = '0px';
+    magicLine.value.style.opacity = '0';
+  }
+};
+
+const updateMagicLine = () => nextTick(() => resetMagicLine());
 
 const moveMagicLine = (event: MouseEvent) => {
   const targetLink = event.target as HTMLAnchorElement;
@@ -63,6 +73,7 @@ const moveMagicLine = (event: MouseEvent) => {
 
     magicLine.value.style.width = `${targetLink.offsetWidth}px`;
     magicLine.value.style.left = `${targetLeft - containerLeft}px`;
+    magicLine.value.style.opacity = '1';
   }
 };
 
@@ -71,15 +82,25 @@ const resetMagicLine = () => {
     const activeLink = navLinksContainer.value.querySelector('.router-link-exact-active') as HTMLAnchorElement;
     if (activeLink) {
       moveMagicLine({ target: activeLink } as unknown as MouseEvent);
+      return;
     }
   }
+  ensureMagicLineHidden();
 };
 
 onMounted(() => {
-  nextTick(() => {
-    resetMagicLine();
-  });
+  updateMagicLine();
+  window.addEventListener('resize', updateMagicLine);
 });
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateMagicLine);
+});
+
+watch(
+  () => [route.path, route.hash],
+  () => updateMagicLine()
+);
 </script>
 
 <style scoped>
@@ -161,6 +182,8 @@ onMounted(() => {
   background-color: #3b82f6;
   border-radius: 4px;
   transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  opacity: 0;
+  pointer-events: none;
 }
 
 

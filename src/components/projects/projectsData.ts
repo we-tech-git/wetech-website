@@ -51,7 +51,7 @@ export const projects: ProjectEntry[] = [
         pt: 'A We Tech foi responsável por idealizar e desenvolver a landing page da Triper, transformando o conceito da plataforma de viagens em um produto digital pronto para receber novos clientes.',
       },
       projectDate: { en: 'Published Jan 2025', pt: 'Publicado em jan 2025' },
-      urlBanner: '/img/projects/project_gallery_banner_1.png',
+      urlBanner: '',
       problemDescription: {
         title: { en: 'The challenge', pt: 'O desafio' },
         description: {
@@ -81,57 +81,57 @@ export const projects: ProjectEntry[] = [
           pt: 'Atualmente o projeto Triper serve como referência interna na We Tech para interfaces de viagem, recebendo melhorias visuais e de código pontuais e sendo utilizado como base para estudos, experimentos e conversas com novos parceiros.',
         },
       },
-      projectLink: 'https://wetechhub.com.br',
+      projectLink: 'https://tripper-landing.netlify.app/',
     },
   },
   {
-    slug: 'the-chat',
+    slug: 'toro-token',
     card: {
-      src: '/img/projects/banner/project_thechat_banner_2.png',
-      title: { en: 'The Chat', pt: 'O Projeto Chat' },
+      src: '/img/projects/banner/project_toro_banner_8.png',
+      title: { en: 'TORO token', pt: 'TORO token' },
       text: {
-        en: 'Prototype chat application created by We Tech to explore real-time communication patterns.',
-        pt: 'Aplicação de chat criada pela We Tech para estudar e aplicar conceitos de comunicação em tempo real.',
+        en: 'Tokenized portfolio with automated active/passive strategies in a single asset.',
+        pt: 'Portfólio tokenizado com estratégias ativas e passivas automatizadas em um único ativo.',
       },
     },
     info: {
-      title: { en: 'The Chat', pt: 'O Projeto Chat' },
+      title: { en: 'TORO token', pt: 'TORO token' },
       firstDescription: {
-        en: 'The Chat was developed by We Tech as a learning project focused mainly on back-end and real-time communication logic, turning experiments with tools and protocols into a complete product with interface and API.',
-        pt: 'O projeto The Chat foi desenvolvido pela We Tech como um estudo focado principalmente em back-end e lógicas de comunicação em tempo real, transformando pesquisas e testes com ferramentas e protocolos em um produto completo, com interface e API.',
+        en: 'TORO  programmed to execute active and passive strategies—stop loss, stop buy, shorting, and network distributions—helping holders build a single digital asset portfolio while mitigating risk.',
+        pt: 'O TORO programado para executar estratégias ativas e passivas — stop loss, stop buy, shorting e distribuições de rede — ajudando detentores a construir um portfólio de ativos digitais em um único token, mitigando riscos.',
       },
-      projectDate: { en: 'Published Nov 2024', pt: 'Publicado em nov 2024' },
-      urlBanner: '/img/projects/banner/project_thechat_banner_2.png',
+      projectDate: { en: 'Published Jul 2022', pt: 'Publicado em jul 2022' },
+      urlBanner: '/img/projects/banner/project_toro_banner_8.png',
       problemDescription: {
-        title: { en: 'The project The Chat', pt: 'O projeto The Chat' },
+        title: { en: 'The challenge', pt: 'O desafio' },
         description: {
-          en: 'From visual references of popular messaging apps, We Tech structured a simple but complete environment where users can log in, access their conversations and exchange messages in real time through a dedicated interface.',
-          pt: 'A partir de referências visuais de aplicativos de conversa já conhecidos, a We Tech estruturou um ambiente simples, mas completo, onde os usuários podem se cadastrar, acessar suas conversas e trocar mensagens em tempo real por meio de uma interface dedicada.',
+          en: 'Explain a multi-strategy token (stop loss/stop buy/short) in a way that is clear and trustworthy for investors.',
+          pt: 'Explicar um token multi-estratégia (stop loss/stop buy/short) de forma clara e confiável para investidores.',
         },
       },
       solutionDescription: {
-        title: { en: 'Challenges', pt: 'Desafios' },
+        title: { en: 'Approach', pt: 'Abordagem' },
         description: {
-          en: 'The main technical challenge for We Tech was to use Socket.IO to maintain a real-time session between two logged-in users, while Express and a database handled secure routes, file uploads and message storage without interrupting the conversation flow.',
-          pt: 'O maior desafio técnico para a We Tech foi utilizar Socket.IO para manter uma sessão em tempo real entre dois usuários logados, enquanto o Express e o banco de dados cuidavam de rotas seguras, upload de imagens e armazenamento das mensagens sem interromper o fluxo da conversa.',
+          en: 'We Tech structured the narrative and site experience to present automated strategies, risk controls, and benefits in one concise page.',
+          pt: 'A We Tech estruturou a narrativa e a experiência do site para apresentar estratégias automatizadas, controles de risco e benefícios em uma página concisa.',
         },
       },
       exampleDescription: {
-        title: { en: 'Project intent', pt: 'Intuito do projeto' },
+        title: { en: 'Result', pt: 'Resultado' },
         description: {
-          en: 'The Chat landing page created by We Tech explains the project, presents its features and future roadmap and serves as an entry point for new users and experiments.',
-          pt: 'A landing page do The Chat, criada pela We Tech, explica o projeto, apresenta suas funcionalidades e próximos passos e serve como porta de entrada para novos usuários e experimentos.',
+          en: 'Hero sections highlight the token story and strategy mix, with visuals that reinforce performance tracking.',
+          pt: 'Seções de destaque apresentam a história do token e o mix de estratégias, com visuais que reforçam o acompanhamento de performance.',
         },
-        imageUrl: '/img/projects/banner/the_chat_web_site.png',
+        imageUrl: '/img/projects/banner/toro_token_web_site.png',
       },
       finalDescription: {
-        title: { en: 'The Chat today', pt: 'The Chat atualmente' },
+        title: { en: 'Impact', pt: 'Impacto' },
         description: {
-          en: 'Today The Chat remains as a We Tech internal reference for socket communication, authentication and messaging UI, and is frequently revisited to test new ideas and improvements.',
-          pt: 'Atualmente o The Chat permanece como uma referência interna da We Tech para comunicação via sockets, autenticação e interfaces de mensageria, sendo frequentemente revisitado para testes de novas ideias e melhorias.',
+          en: 'Clear communication increased trust and provided a single entry point to TORO’s tokenized strategies.',
+          pt: 'A comunicação clara aumentou a confiança e forneceu um ponto único de entrada para as estratégias tokenizadas do TORO.',
         },
       },
-      projectLink: 'https://wetechhub.com.br',
+      projectLink: 'https://torotoken.io/',
     },
   },
   {
@@ -181,107 +181,57 @@ export const projects: ProjectEntry[] = [
           pt: 'Com o novo site, o BLUE comunica sua proposta de forma mais clara; a We Tech segue iterando para evidenciar performance e ampliar o roadmap para novos usuários e investidores.',
         },
       },
-      projectLink: 'https://wetechhub.com.br',
+      projectLink: 'https://bluetoken.io/homepage',
     },
   },
   {
-    slug: 'match-coder',
+    slug: 'genesis-bank',
     card: {
-      src: placeholderImage('Match Coder'),
-      title: { en: 'Match Coder UX/UI', pt: 'Match Coder UX/UI' },
+      src: '/img/projects/banner/project_genesis_banner_10.png',
+      title: { en: 'Genesis Bank', pt: 'Genesis Bank' },
       text: {
-        en: 'Hiring platform that pairs developers and companies through challenges.',
-        pt: 'Plataforma de contratação que conecta devs e empresas por desafios técnicos.',
+        en: 'Corporate site that translates banking products into a clear digital experience.',
+        pt: 'Site institucional que traduz produtos bancários em uma experiência digital clara.',
       },
     },
     info: {
-      title: { en: 'Match Coder UX/UI', pt: 'Match Coder UX/UI' },
+      title: { en: 'Genesis Bank', pt: 'Genesis Bank' },
       firstDescription: {
-        en: 'Product design for skill-matching with bias-safe scoring.',
-        pt: 'Design do produto para matchmaking de habilidades com score imparcial.',
+        en: 'We Tech crafted the Genesis Bank experience to present services, credibility, and onboarding paths in a streamlined way.',
+        pt: 'A We Tech desenhou a experiência da Genesis Bank para apresentar serviços, credibilidade e caminhos de onboarding de forma simples.',
       },
-      projectDate: { en: 'Published May 2024', pt: 'Publicado em mai 2024' },
-      urlBanner: '/img/projects/banner/match_coder_banner.png',
+      projectDate: { en: 'Published Oct 2023', pt: 'Publicado em out 2023' },
+      urlBanner: '/img/projects/banner/project_genesis_banner_10.png',
       problemDescription: {
         title: { en: 'The challenge', pt: 'O desafio' },
         description: {
-          en: 'Recruiters struggled to compare candidates fairly across stacks.',
-          pt: 'Recrutadores tinham dificuldade de comparar candidatos de forma justa entre stacks.',
+          en: 'Translate banking offerings into a digital narrative that balances trust, compliance, and conversion.',
+          pt: 'Traduzir ofertas bancárias em uma narrativa digital que equilibre confiança, compliance e conversão.',
         },
       },
       solutionDescription: {
-        title: { en: 'Our approach', pt: 'Nossa abordagem' },
+        title: { en: 'Approach', pt: 'Abordagem' },
         description: {
-          en: 'Challenge templates, anonymized profiles, and consistent scoring models.',
-          pt: 'Templates de desafios, perfis anonimizados e modelos de pontuação consistentes.',
+          en: 'We Tech organized content blocks for products, benefits, and calls to action, using a visual language aligned to finance.',
+          pt: 'A We Tech organizou blocos de conteúdo para produtos, benefícios e chamadas para ação, usando linguagem visual alinhada a finanças.',
         },
       },
       exampleDescription: {
-        title: { en: 'Experience snapshot', pt: 'Visão da experiência' },
+        title: { en: 'Result', pt: 'Resultado' },
         description: {
-          en: 'Candidates complete timed challenges; reviewers get structured insights.',
-          pt: 'Candidatos realizam desafios cronometrados; revisores recebem insights estruturados.',
+          en: 'The page highlights brand authority and guides users to contact and service flows with clear CTAs.',
+          pt: 'A página destaca autoridade da marca e conduz usuários para contato e fluxos de serviço com CTAs claros.',
         },
-        imageUrl: '/img/projects/exemple/match_coder_example.png',
+        imageUrl: '/img/projects/banner/genesis_bank_web_site.png',
       },
       finalDescription: {
         title: { en: 'Impact', pt: 'Impacto' },
         description: {
-          en: 'Reduced hiring cycle by 27% with better candidate acceptance rates.',
-          pt: 'Ciclo de contratação 27% mais curto com maior taxa de aceite de candidatos.',
+          en: 'Improved clarity and trust for prospects exploring Genesis Bank’s digital presence.',
+          pt: 'Maior clareza e confiança para prospects que exploram a presença digital da Genesis Bank.',
         },
       },
-      projectLink: 'https://wetechhub.com.br',
-    },
-  },
-  {
-    slug: 'pet-care',
-    card: {
-      src: placeholderImage('Pet Care'),
-      title: { en: 'Pet Care UX/UI', pt: 'Pet Care UX/UI' },
-      text: {
-        en: 'Wellness platform for pet clinics with reminders and teleconsults.',
-        pt: 'Plataforma de bem-estar para clínicas pet com lembretes e teleconsulta.',
-      },
-    },
-    info: {
-      title: { en: 'Pet Care UX/UI', pt: 'Pet Care UX/UI' },
-      firstDescription: {
-        en: 'End-to-end experience for appointments, vaccines, and remote triage.',
-        pt: 'Experiência ponta a ponta para consultas, vacinas e triagem remota.',
-      },
-      projectDate: { en: 'Published Feb 2024', pt: 'Publicado em fev 2024' },
-      urlBanner: '/img/projects/banner/pet_care_banner.png',
-      problemDescription: {
-        title: { en: 'The challenge', pt: 'O desafio' },
-        description: {
-          en: 'Clinics had high no-show rates and fragmented medical histories.',
-          pt: 'Clínicas sofriam com altas faltas e históricos médicos fragmentados.',
-        },
-      },
-      solutionDescription: {
-        title: { en: 'Our approach', pt: 'Nossa abordagem' },
-        description: {
-          en: 'Unified record, proactive reminders, and clear care plans per pet.',
-          pt: 'Prontuário unificado, lembretes proativos e planos de cuidado por pet.',
-        },
-      },
-      exampleDescription: {
-        title: { en: 'Experience snapshot', pt: 'Visão da experiência' },
-        description: {
-          en: 'Owners book visits, share labs, and start teleconsults in a single flow.',
-          pt: 'Tutores agendam, compartilham exames e iniciam teleconsultas no mesmo fluxo.',
-        },
-        imageUrl: '/img/projects/exemple/pet_care_example.png',
-      },
-      finalDescription: {
-        title: { en: 'Impact', pt: 'Impacto' },
-        description: {
-          en: 'No-shows dropped by 33% and clinic follow-ups improved retention.',
-          pt: 'Faltas reduziram 33% e retornos de clínica aumentaram a retenção.',
-        },
-      },
-      projectLink: 'https://wetechhub.com.br',
+      projectLink: 'https://www.genesisbank.com.br/',
     },
   },
 ]
