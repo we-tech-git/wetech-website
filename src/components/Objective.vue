@@ -57,18 +57,21 @@ const objectives = [
   padding: 80px 20px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 4rem; /* Reduced from 14.5rem */
+  margin-bottom: 4rem;
+  /* Reduced from 14.5rem */
 }
 
 .container h2 {
-  margin-bottom: 4rem; /* Reduced from 15rem */
+  margin-bottom: 4rem;
+  /* Reduced from 15rem */
 }
 
 
 .objective-grid {
   display: flex;
   justify-content: center;
-  gap: 32px; /* Reduced from 90px */
+  gap: 32px;
+  /* Reduced from 90px */
   flex-wrap: wrap;
 }
 
@@ -77,9 +80,12 @@ const objectives = [
   background-color: #1a233a;
   border: 1px solid #2a3858;
   border-radius: 8px;
-  width: 280px; /* Fixed standard width */
-  height: 280px; /* Fixed standard height */
-  padding: 24px; /* Reduced padding */
+  width: 280px;
+  /* Fixed standard width */
+  height: 280px;
+  /* Fixed standard height */
+  padding: 24px;
+  /* Reduced padding */
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -120,19 +126,22 @@ const objectives = [
 }
 
 .initial-view img {
-  height: 48px; /* Reduced from 87px */
+  height: 48px;
+  /* Reduced from 87px */
   width: auto;
 }
 
 .initial-view h3 {
-  font-size: 1.5rem; /* Reduced from 3.0rem */
+  font-size: 1.5rem;
+  /* Reduced from 3.0rem */
   color: #ffffff;
   margin: 0;
   font-weight: 600;
 }
 
 .hover-view p {
-  font-size: 1rem; /* Reduced from 2.0rem */
+  font-size: 1rem;
+  /* Reduced from 2.0rem */
   color: #bdc4d1;
   line-height: 1.5;
   transition: color 0.3s ease;

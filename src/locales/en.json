@@ -19,6 +19,16 @@
       "petCare": "Pet Care UX/UI"
     }
   },
+  "projectsPage": {
+    "back": "Back to projects",
+    "publishedOn": "Published on",
+    "openProject": "Open project",
+    "viewDetails": "View details",
+    "galleryTitle": "Project highlights",
+    "gallerySubtitle": "Explore a few products we designed with partner teams.",
+    "notFoundTitle": "Project not found",
+    "notFoundCopy": "The link you used is no longer available. Choose another project to continue."
+  },
   "contact": {
     "title": "Have an Awesome Project Idea?",
     "subtitle": "Let's Discuss"

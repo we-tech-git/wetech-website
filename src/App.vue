@@ -11,7 +11,7 @@ import Contact from './components/Contact.vue';
 
 const { t } = useI18n();
 
-</script>1
+</script>
 
 <template>
   <div class="app-container">

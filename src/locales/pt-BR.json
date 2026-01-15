@@ -19,13 +19,23 @@
       "petCare": "Pet Care UX/UI"
     }
   },
+  "projectsPage": {
+    "back": "Voltar para projetos",
+    "publishedOn": "Publicado em",
+    "openProject": "Abrir projeto",
+    "viewDetails": "Ver detalhes",
+    "galleryTitle": "Projetos em destaque",
+    "gallerySubtitle": "Explore alguns dos produtos digitais que criamos com equipes parceiras.",
+    "notFoundTitle": "Projeto não encontrado",
+    "notFoundCopy": "O link acessado não está disponível. Escolha outro projeto para continuar."
+  },
   "contact": {
     "title": "Tem uma ideia de projeto incrível?",
     "subtitle": "Vamos conversar"
   },
   "aboutUs": {
     "title": "Sobre a We Tech Hub",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. \n\n Donec tortor diam, elementum nec tristique ac. Ut a volutpat nibh. Morbi congue elementum scelerisque",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at volutpat elit. Pellentesque viverra placerat fringilla. Sed quis libero sit amet arcu pharetra semper. Ut a volutpat nibh. Morbi congue elementum scelerisque. Donec tortor diam, elementum nec tristique ac. \n\n Donec tortor diam, elementum nec tristique ac. Ut a volutpat niblementum scelerisque",
     "buttonContact": "Entre em Contato",
     "buttonKnowmore": "Conheça Nossas Soluções"
   },

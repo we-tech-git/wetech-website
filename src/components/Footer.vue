@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
-import { useI18n } from 'vue-i18n';
-const { t } = useI18n();
+import { RouterLink } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import svgSet from '../utils/svgSet'
 
+const { t } = useI18n()
 </script>
 
 <template>
@@ -22,17 +22,37 @@ import svgSet from '../utils/svgSet'
       <div class="footer-column">
         <h3>{{ t('footer.projectsTitle') }}</h3>
         <ul>
-          <li><a href="#" class="footer-link">{{ t('footer.projects.triper') }}</a></li>
-          <li><a href="#" class="footer-link">{{ t('footer.projects.theChat') }}</a></li>
-          <li><a href="#" class="footer-link">{{ t('footer.projects.blueToken') }}</a></li>
+          <li>
+            <RouterLink to="/projects/triper" class="footer-link">
+              {{ t('footer.projects.triper') }}
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/projects/the-chat" class="footer-link">
+              {{ t('footer.projects.theChat') }}
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/projects/blue-token" class="footer-link">
+              {{ t('footer.projects.blueToken') }}
+            </RouterLink>
+          </li>
         </ul>
       </div>
 
       <div class="footer-column">
         <h3>{{ t('footer.uxuiTitle') }}</h3>
         <ul>
-          <li><a href="#" class="footer-link">{{ t('footer.projects.matchCoder') }}</a></li>
-          <li><a href="#" class="footer-link">{{ t('footer.projects.petCare') }}</a></li>
+          <li>
+            <RouterLink to="/projects/match-coder" class="footer-link">
+              {{ t('footer.projects.matchCoder') }}
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/projects/pet-care" class="footer-link">
+              {{ t('footer.projects.petCare') }}
+            </RouterLink>
+          </li>
         </ul>
       </div>
 
@@ -41,7 +61,7 @@ import svgSet from '../utils/svgSet'
         <h3>{{ t('footer.socialTitle') }}</h3>
 
         <div class="social-icons">
-          
+
           <a href="https://github.com/we-tech-git" target="_blank" class="social-link" aria-label="GitHub">
             <span class="footer-icon" v-html="svgSet.githubIcon"></span>
           </a>
