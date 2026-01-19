@@ -61,22 +61,7 @@ onMounted(() => {
             <p class="lead">{{ t('projectsPage.gallerySubtitle') }}</p>
 
             <!-- Stats Row -->
-            <div class="gallery__stats">
-                <div class="stat">
-                    <span class="stat__number">{{ cards.length }}+</span>
-                    <span class="stat__label">Projetos</span>
-                </div>
-                <div class="stat__divider"></div>
-                <div class="stat">
-                    <span class="stat__number">100%</span>
-                    <span class="stat__label">Satisfação</span>
-                </div>
-                <div class="stat__divider"></div>
-                <div class="stat">
-                    <span class="stat__number">5★</span>
-                    <span class="stat__label">Avaliação</span>
-                </div>
-            </div>
+
         </div>
 
         <div class="gallery__grid">

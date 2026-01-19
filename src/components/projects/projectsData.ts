@@ -62,26 +62,26 @@ export const projects: ProjectEntry[] = [
       solutionDescription: {
         title: { en: 'Solutions and applications', pt: 'Soluções e aplicações' },
         description: {
-          en: 'We Tech structured the front-end with current best practices in performance, accessibility, and component organization, exploring animations and transitions that reinforce the Triper brand while keeping navigation light and intuitive.',
-          pt: 'A We Tech estruturou o front-end com as melhores práticas atuais de performance, acessibilidade e organização de componentes, explorando animações e transições que reforçam a identidade da Triper e mantêm a navegação leve e intuitiva.',
+          en: 'We structured the front-end using current best practices for performance, accessibility, and component organization. We leveraged animations and transitions to reinforce Triper\'s identity while keeping navigation light and intuitive',
+          pt: 'Nós estruturamos o front-end com as melhores práticas atuais de performance, acessibilidade e organização de componentes, explorando animações e transições que reforçam a identidade da Triper e mantêm a navegação leve e intuitiva.',
         },
       },
       exampleDescription: {
-        title: { en: 'The project', pt: 'O Projeto' },
+        title: { en: 'Visual Preview', pt: 'Visualização' },
         description: {
-          en: 'The final layout highlights the Triper brand, presents the service proposal in a single-page experience, and guides the user through sections focused on benefits, differentials, and a clear call to action.',
-          pt: 'O layout final destaca a marca Triper, apresenta a proposta do serviço em uma experiência de página única e conduz o usuário por seções focadas em benefícios, diferenciais e uma chamada clara para ação.',
+          en: 'The designed interface highlights the travel experience with immersive imagery and clean typography.',
+          pt: 'A interface desenhada destaca a experiência de viagem com imagens imersivas e tipografia limpa.',
         },
-        imageUrl: '/img/projects/banner/tripper_web_site.png',
+        imageUrl: placeholderImage('Triper Preview'),
       },
       finalDescription: {
-        title: { en: 'Triper today', pt: 'Triper atualmente' },
+        title: { en: 'Outcome', pt: 'Resultado' },
         description: {
-          en: 'Today the Triper project serves as a reference for We Tech in travel interfaces, receiving punctual visual and code improvements and being used as a base for studies, experiments, and conversations with new partners.',
-          pt: 'Atualmente o projeto Triper serve como referência interna na We Tech para interfaces de viagem, recebendo melhorias visuais e de código pontuais e sendo utilizado como base para estudos, experimentos e conversas com novos parceiros.',
+          en: 'A fully responsive and engaging landing page ready for launch.',
+          pt: 'Uma landing page totalmente responsiva e envolvente pronta para o lançamento.',
         },
       },
-      projectLink: 'https://tripper-landing.netlify.app/',
+      projectLink: '#',
     },
   },
   {
@@ -97,8 +97,8 @@ export const projects: ProjectEntry[] = [
     info: {
       title: { en: 'TORO token', pt: 'TORO token' },
       firstDescription: {
-        en: 'TORO  programmed to execute active and passive strategies—stop loss, stop buy, shorting, and network distributions—helping holders build a single digital asset portfolio while mitigating risk.',
-        pt: 'O TORO programado para executar estratégias ativas e passivas — stop loss, stop buy, shorting e distribuições de rede — ajudando detentores a construir um portfólio de ativos digitais em um único token, mitigando riscos.',
+        en: 'TORO was programmed to execute active and passive strategies—such as stop loss, stop buy, shorting, and network distributions—helping holders build a single digital asset portfolio while mitigating risk.',
+        pt: 'O TORO foi programado para executar estratégias ativas e passivas  como stop loss, stop buy, shorting e distribuições de rede  ajudando detentores a construir um portfólio de ativos digitais em um único token, mitigando riscos.',
       },
       projectDate: { en: 'Published Jul 2022', pt: 'Publicado em jul 2022' },
       urlBanner: '/img/projects/banner/project_toro_banner_8.png',
@@ -112,8 +112,8 @@ export const projects: ProjectEntry[] = [
       solutionDescription: {
         title: { en: 'Approach', pt: 'Abordagem' },
         description: {
-          en: 'We Tech structured the narrative and site experience to present automated strategies, risk controls, and benefits in one concise page.',
-          pt: 'A We Tech estruturou a narrativa e a experiência do site para apresentar estratégias automatizadas, controles de risco e benefícios em uma página concisa.',
+          en: 'We structured the site’s narrative and user experience to present automated strategies, risk controls, and benefits on a single, concise page..',
+          pt: 'Nós estruturamos a narrativa e a experiência do site para apresentar estratégias automatizadas, controles de risco e benefícios em uma página concisa.',
         },
       },
       exampleDescription: {
@@ -148,7 +148,7 @@ export const projects: ProjectEntry[] = [
       title: { en: 'Blue Token', pt: 'BLUE Token' },
       firstDescription: {
         en: 'We Tech designed the BLUE site to explain the token as a basket of cryptocurrencies on BSC, giving users a single token that represents multiple assets with convenience and diversification.',
-        pt: 'A We Tech concebeu o site do BLUE para explicar o token como uma cesta de criptomoedas na BSC, oferecendo aos usuários um único token que representa vários ativos, com conveniência e diversificação.',
+        pt: 'A We Tech desenvolveu o site da Blue Token para explicar o token como uma cesta de criptomoedas na BSC, oferecendo aos usuários um único token que representa vários ativos, com conveniência e diversificação.',
       },
       projectDate: { en: 'Published Aug 2024', pt: 'Publicado em ago 2024' },
       urlBanner: '/img/projects/banner/project_bluetoken_banner_6.png',
@@ -156,7 +156,7 @@ export const projects: ProjectEntry[] = [
         title: { en: 'Engineering notes', pt: 'Relatos da engenharia' },
         description: {
           en: 'We Tech rebuilt the BLUE website to refresh the brand and highlight token characteristics, giving a broad view of features and benefits users get when acquiring BLUE.',
-          pt: 'A We Tech reconstruiu o site do BLUE para renovar a marca e destacar as características do token, oferecendo uma visão ampla das funcionalidades e dos benefícios que os usuários têm ao adquirir BLUE.',
+          pt: 'Nós reconstruímos o site do BLUE para renovar a marca e destacar as características do token, oferecendo uma visão ampla das funcionalidades e dos benefícios que os usuários têm ao adquirir BLUE.',
         },
       },
       solutionDescription: {
@@ -213,7 +213,7 @@ export const projects: ProjectEntry[] = [
         title: { en: 'Approach', pt: 'Abordagem' },
         description: {
           en: 'We Tech organized content blocks for products, benefits, and calls to action, using a visual language aligned to finance.',
-          pt: 'A We Tech organizou blocos de conteúdo para produtos, benefícios e chamadas para ação, usando linguagem visual alinhada a finanças.',
+          pt: 'Nós organizamos blocos de conteúdo para produtos, benefícios e chamadas para ação, usando linguagem visual alinhada a finanças.',
         },
       },
       exampleDescription: {

@@ -17,7 +17,7 @@ const { t } = useI18n();
           <p style="white-space: pre-line">{{ t('aboutUs.description') }}</p>
           <div class="buttons-wrapper">
             <a href="#contact" class="btn btn-primary">{{ t('aboutUs.buttonContact') }}</a>
-            <a href="#solutions" class="btn btn-secondary">{{ t('aboutUs.buttonKnowmore') }}</a>
+            <router-link to="/projects" class="btn btn-secondary">{{ t('aboutUs.buttonKnowmore') }}</router-link>
           </div>
         </div>
       </div>

@@ -54,8 +54,6 @@ const services = [
           <p class="service-description">{{ t(service.descriptionKey) }}</p>
         </div>
       </div>
-
-      <a href="#contact" class="cta-button">{{ t('services.ctaButton') }}</a>
     </div>
   </section>
 </template>
@@ -73,7 +71,7 @@ const services = [
 }
 
 .section-title {
-  
+
   margin-bottom: 5rem;
 }
 
@@ -89,25 +87,27 @@ const services = [
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem; 
+  padding: 1rem;
 }
 
 .service-icon {
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   margin-bottom: 1.5rem;
 }
 
 .service-title {
-  font-size: 1.25rem; /* Reduced from 1.5rem */
+  font-size: 1.25rem;
+  /* Reduced from 1.5rem */
   font-weight: 600;
   margin-bottom: 0.75rem;
-  min-height: 3rem; 
+  min-height: 3rem;
 }
 
 .service-description {
-  font-size: 0.95rem; /* Reduced from 1.2rem */
+  font-size: 0.95rem;
+  /* Reduced from 1.2rem */
   color: #a0aec0;
   line-height: 1.6;
   max-width: 300px;
@@ -118,10 +118,12 @@ const services = [
   display: inline-block;
   background-color: #007bff;
   color: #ffffff;
-  padding: 0.75rem 3rem; /* Drastically reduced padding */
+  padding: 0.75rem 3rem;
+  /* Drastically reduced padding */
   border-radius: 50px;
   text-decoration: none;
-  font-size: 1rem; /* Reduced from 1.5rem */
+  font-size: 1rem;
+  /* Reduced from 1.5rem */
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
   margin-bottom: 6rem;
@@ -137,8 +139,9 @@ const services = [
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .service-title {
-    min-height: auto; 
+    min-height: auto;
   }
 }
 
@@ -155,11 +158,12 @@ const services = [
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+
   .cta-button {
-    width: 100%; 
-    padding: 1rem; 
-    font-size: 1.1rem; 
-    box-sizing: border-box; 
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
   }
 
 }

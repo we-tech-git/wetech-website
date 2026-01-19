@@ -3,10 +3,6 @@
     <div class="content-wrapper">
       <h2 class="hero-title" style="white-space: pre-line">{{ t('innovations.title') }}</h2>
       <p class="hero-description" style="white-space: pre-line">{{ t('innovations.description') }}</p>
-      <div class="button-group">
-        <button class="btn btn-primary">{{ t('innovations.primary_button') }}</button>
-        <button class="btn btn-secondary">{{ t('innovations.secondary_button') }}</button>
-      </div>
     </div>
   </section>
 </template>

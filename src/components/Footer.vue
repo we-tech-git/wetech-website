@@ -58,7 +58,6 @@ const { t } = useI18n()
             <span class="footer-icon" v-html="svgSet.gmailIcon"></span>
           </a>
         </div>
-        <a href="mailto:contact@wetechhub.com.br" class="contact-email">contact@wetechhub.com.br</a>
       </div>
 
     </div>

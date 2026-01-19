@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="contact-section">
+  <section id="contact" class="contact-section" v-if="!isProjectsPage">
     <div class="form-container">
       <div>
         <h2>{{ t('contact.title') }}</h2>
@@ -7,7 +7,7 @@
       <p class="subtitle">{{ t('contact.subtitle') }}</p>
 
       <form class="input-wrapper" @submit.prevent="sendEmail">
-        <span class="icon" v-html=svgSet.emailIcon></span>
+        <span class="icon" v-html="svgSet.emailIcon"></span>
         <input id="contact-email" type="email" placeholder="e-mail" v-model="email" required />
         <button type="submit" class="send-btn">Send</button>
       </form>
@@ -20,12 +20,15 @@
 </template>
 
 <script setup lang="ts">
-
+import { ref, computed } from "vue";
 import { useI18n } from 'vue-i18n';
-const { t } = useI18n();
-
-import { ref } from "vue";
+import { useRoute } from 'vue-router';
 import svgSet from '@/utils/svgSet';
+
+const { t } = useI18n();
+const route = useRoute();
+const isProjectsPage = computed(() => route.path === '/projects');
+
 const email = ref<string>("");
 const feedbackMessage = ref<string>("");
 const messageType = ref<"success" | "error">("success");
@@ -35,7 +38,7 @@ function isValidEmail(email: string): boolean {
   return emailRegex.test(email);
 }
 
-function sendEmail() {
+async function sendEmail() {
   feedbackMessage.value = "";
   if (!isValidEmail(email.value)) {
     messageType.value = "error";
@@ -43,15 +46,35 @@ function sendEmail() {
     return;
   }
 
-  const recipient = "contact@wetechhub.com.br";
-  const subject = "Novo contato pelo site We Tech Hub";
-  const body = `Olá, gostaria de conversar sobre um projeto.\n\nMeu email para contato é: ${email.value}`;
+  try {
+    const response = await fetch('https://wetech-website-next.vercel.app/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        nome: "",
+        sobrenome: "",
+        email: email.value,
+        telefone: "000000",
+        assunto: "",
+        mensagem: ""
+      })
+    });
 
-  window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    if (response.ok) {
+      messageType.value = "success";
+      feedbackMessage.value = "E-mail enviado com sucesso!";
+      email.value = "";
+    } else {
+      throw new Error('Erro ao enviar e-mail');
+    }
+  } catch (error: unknown) {
+    messageType.value = "error";
+    feedbackMessage.value = "Erro ao enviar e-mail. Tente novamente mais tarde.";
+    console.error(error instanceof Error ? error.message : error);
+  }
 
-  messageType.value = "success";
-  feedbackMessage.value = `Redirecionando para seu e-mail...`;
-  email.value = "";
   setTimeout(() => {
     feedbackMessage.value = "";
   }, 5000);

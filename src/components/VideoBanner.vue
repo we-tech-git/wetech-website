@@ -80,7 +80,8 @@ onUnmounted(() => {
 <style scoped>
 .video-banner {
   width: 100%;
-  max-height: 67rem;
+  height: 100vh;
+  /* max-height: 67rem; REMOVIDO para ocupar a tela toda e centralizar corretamente */
   overflow: hidden;
   position: relative;
 }
@@ -88,13 +89,15 @@ onUnmounted(() => {
 .banner-wrapper {
   position: relative;
   width: 100%;
+  height: 100%;
 }
 
 
 
 .banner-video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
