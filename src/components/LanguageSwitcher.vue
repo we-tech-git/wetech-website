@@ -53,11 +53,8 @@ function toggleDropdown() {
 }
 
 .custom-switcher {
-  position: fixed;
-  top: 2rem;
-  left: 2rem;
-  z-index: 2000;
-  width: 150px;
+  position: relative;
+  /* width: 150px; REMOVED fixed width to fit in header */
 }
 
 .switcher-button {
@@ -93,7 +90,7 @@ function toggleDropdown() {
   list-style: none;
   padding: 8px 0;
   margin: 0;
-  width: 100%;
+  min-width: 140px; /* Changed from width: 100% */
   z-index: 1000;
   animation: fadeInDown 0.2s ease-out;
 }
@@ -116,10 +113,6 @@ function toggleDropdown() {
 @media (max-width: 768px) {
 
   .custom-switcher {
-
-    top: 110px;
-    left: 15px;
-
     width: auto;
   }
 

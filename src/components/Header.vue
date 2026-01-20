@@ -2,10 +2,13 @@
   <header class="main-header">
     <nav class="navbar">
 
-      <router-link to="/" class="logo-container">
-        <img src="/WE_white (1).png" alt="We Tech logo" class="logo-icon" />
-        <span class="logo-text">{{ t('header.logoText') }}</span>
-      </router-link>
+      <div class="header-left">
+        <LanguageSwitcher />
+        <router-link to="/" class="logo-container">
+          <img src="/WE_white (1).png" alt="We Tech logo" class="logo-icon" />
+          <span class="logo-text">{{ t('header.logoText') }}</span>
+        </router-link>
+      </div>
 
       <ul class="nav-links" ref="navLinksContainer" @mouseleave="resetMagicLine">
         <li v-for="link in navLinks" :key="link.name">
@@ -35,6 +38,7 @@
 import { ref, onMounted, nextTick, computed, onBeforeUnmount, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
+import LanguageSwitcher from './LanguageSwitcher.vue';
 
 const { t } = useI18n();
 const route = useRoute();
@@ -127,6 +131,12 @@ watch(
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .logo-container {
