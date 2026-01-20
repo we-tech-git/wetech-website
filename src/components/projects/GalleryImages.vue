@@ -24,6 +24,8 @@ const cards = computed(() =>
 const pickLocale = (text: { en: string; pt: string }) =>
     locale.value.startsWith('pt') ? text.pt : text.en
 
+const isDeactivated = (slug: string) => ['toro-token', 'genesis-bank'].includes(slug)
+
 onMounted(() => {
     cardsVisible.value = new Array(props.projects.length).fill(false)
 
@@ -78,7 +80,7 @@ onMounted(() => {
 
                 <div class="gallery__content">
                     <div class="tag">
-                        <span class="tag__dot"></span>
+                        <span class="tag__dot" :class="{ 'red': isDeactivated(card.slug) }"></span>
                         {{ pickLocale(card.title) }}
                     </div>
                     <p class="card-title">{{ pickLocale(card.text) }}</p>
@@ -446,6 +448,10 @@ onMounted(() => {
     background: #22c55e;
     border-radius: 50%;
     animation: tagPulse 2s ease-in-out infinite;
+}
+
+.tag__dot.red {
+    background: #ef4444;
 }
 
 @keyframes tagPulse {

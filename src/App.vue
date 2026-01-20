@@ -6,6 +6,7 @@ import Header from '@/components/Header.vue'
 import Footer from './components/Footer.vue'
 //import HelloWorld from './components/HelloWorld.vue'
 import { useI18n } from 'vue-i18n'
+import LanguageSwitcher from './components/LanguageSwitcher.vue';
 import Contact from './components/Contact.vue';
 import FloatingWhatsApp from './components/FloatingWhatsApp.vue';
 
@@ -28,6 +29,14 @@ onMounted(() => {
 
 <template>
   <div class="app-container">
+
+    <header class="app-header">
+      <div class="header-content">
+        <LanguageSwitcher />
+      </div>
+    </header>
+
+
 
     <main class="content">
 

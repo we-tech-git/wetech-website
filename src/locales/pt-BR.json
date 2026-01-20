@@ -31,7 +31,19 @@
   },
   "contact": {
     "title": "Tem uma ideia de projeto incrível?",
-    "subtitle": "Vamos conversar"
+    "subtitle": "Vamos conversar",
+    "send": "Enviar",
+    "modalTitle": "Complete suas informações",
+    "name": "Nome",
+    "surname": "Sobrenome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "invalidEmail": "Por favor, digite um e-mail válido.",
+    "successMessage": "E-mail enviado com sucesso!",
+    "errorMessage": "Erro ao enviar e-mail. Tente novamente mais tarde."
   },
   "aboutUs": {
     "title": "Sobre a We Tech Hub",
