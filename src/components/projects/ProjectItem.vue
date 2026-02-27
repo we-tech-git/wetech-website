@@ -15,6 +15,7 @@ const pick = (text: { en: string; pt: string }) =>
 
 const info = computed(() => props.project.info)
 const showCta = computed(() => !['toro-token', 'genesis-bank'].includes(props.project.slug))
+const isDeactivated = computed(() => ['toro-token', 'genesis-bank'].includes(props.project.slug))
 
 // Animation states
 const isLoaded = ref(false)
@@ -50,7 +51,7 @@ onMounted(() => {
             </button>
             <div class="project__meta">
                 <div class="meta-badge">
-                    <span class="pulse-dot"></span>
+                    <span class="pulse-dot" :class="{ 'red': isDeactivated }"></span>
                     <p class="eyebrow">{{ t('projectsPage.publishedOn') }}</p>
                 </div>
                 <p class="date">{{ pick(info.projectDate) }}</p>
@@ -284,6 +285,10 @@ onMounted(() => {
     background: #22c55e;
     border-radius: 50%;
     animation: pulse 2s ease-in-out infinite;
+}
+
+.pulse-dot.red {
+    background: #ef4444;
 }
 
 @keyframes pulse {

@@ -40,10 +40,10 @@ function toggleDropdown() {
 </template>
 
 <style scoped>
-@keyframes fadeInDown {
+@keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
 
   to {
@@ -54,7 +54,7 @@ function toggleDropdown() {
 
 .custom-switcher {
   position: fixed;
-  top: 2rem;
+  bottom: 2rem;
   left: 2rem;
   z-index: 2000;
   width: 150px;
@@ -85,7 +85,7 @@ function toggleDropdown() {
 
 .dropdown-menu {
   position: absolute;
-  top: 110%;
+  bottom: 110%;
   left: 0;
   background-color: white;
   border-radius: 8px;
@@ -95,7 +95,7 @@ function toggleDropdown() {
   margin: 0;
   width: 100%;
   z-index: 1000;
-  animation: fadeInDown 0.2s ease-out;
+  animation: fadeInUp 0.2s ease-out;
 }
 
 .dropdown-menu li {
@@ -116,16 +116,13 @@ function toggleDropdown() {
 @media (max-width: 768px) {
 
   .custom-switcher {
-
-    top: 110px;
     left: 15px;
-
     width: auto;
   }
 
 
   .switcher-button {
-    padding: px;
+    padding: 8px;
   }
 
 

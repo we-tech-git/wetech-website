@@ -54,9 +54,6 @@ const { t } = useI18n()
           <a href="https://github.com/we-tech-git" target="_blank" class="social-link" aria-label="GitHub">
             <span class="footer-icon" v-html="svgSet.githubIcon"></span>
           </a>
-          <a href="mailto:contact@wetechhub.com.br" target="_blank" class="social-link" aria-label="Email">
-            <span class="footer-icon" v-html="svgSet.gmailIcon"></span>
-          </a>
         </div>
       </div>
 

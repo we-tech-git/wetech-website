@@ -37,7 +37,7 @@ export const projects: ProjectEntry[] = [
   {
     slug: 'triper',
     card: {
-      src: placeholderImage('Triper'),
+      src: '/img/projects/banner/tripper_web_site.png',
       title: { en: 'Triper', pt: 'Projeto Triper' },
       text: {
         en: 'Travel experience designed by We Tech, connecting users to inspiring routes.',
@@ -51,7 +51,7 @@ export const projects: ProjectEntry[] = [
         pt: 'A We Tech foi responsável por idealizar e desenvolver a landing page da Triper, transformando o conceito da plataforma de viagens em um produto digital pronto para receber novos clientes.',
       },
       projectDate: { en: 'Published Jan 2025', pt: 'Publicado em jan 2025' },
-      urlBanner: '',
+      urlBanner: '/img/projects/banner/tripper_web_site.png',
       problemDescription: {
         title: { en: 'The challenge', pt: 'O desafio' },
         description: {
@@ -72,7 +72,7 @@ export const projects: ProjectEntry[] = [
           en: 'The designed interface highlights the travel experience with immersive imagery and clean typography.',
           pt: 'A interface desenhada destaca a experiência de viagem com imagens imersivas e tipografia limpa.',
         },
-        imageUrl: placeholderImage('Triper Preview'),
+        imageUrl: '/img/projects/banner/triperrr.png',
       },
       finalDescription: {
         title: { en: 'Outcome', pt: 'Resultado' },

@@ -31,7 +31,19 @@
   },
   "contact": {
     "title": "Have an Awesome Project Idea?",
-    "subtitle": "Let's Discuss"
+    "subtitle": "Let's Discuss",
+    "send": "Send",
+    "modalTitle": "Complete your info",
+    "name": "Name",
+    "surname": "Surname",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit",
+    "invalidEmail": "Please enter a valid email.",
+    "successMessage": "Email sent successfully!",
+    "errorMessage": "Error sending email. Please try again later."
   },
   "aboutUs": {
     "title": "About Us",

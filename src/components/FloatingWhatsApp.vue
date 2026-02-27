@@ -3,13 +3,8 @@ import svgSet from '@/utils/svgSet';
 </script>
 
 <template>
-  <a
-    href="https://wa.me/554899422614"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="whatsapp-float"
-    aria-label="Chat on WhatsApp"
-  >
+  <a href="https://wa.me/554899422614" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
+    aria-label="Chat on WhatsApp">
     <div class="whatsapp-icon" v-html="svgSet.whatsappIcon"></div>
   </a>
 </template>
@@ -63,7 +58,7 @@ import svgSet from '@/utils/svgSet';
     bottom: 20px;
     right: 20px;
   }
-  
+
   .whatsapp-icon {
     width: 28px;
     height: 28px;
